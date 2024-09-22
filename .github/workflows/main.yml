@@ -22,7 +22,7 @@ jobs:
           node-version: '14' 
 
       - name: Install dependencies
-        uses: npm install
+        run: npm install
 
       - name: Run tests
         uses: npm test  
